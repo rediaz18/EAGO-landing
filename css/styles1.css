@@ -1,0 +1,42 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bg-flame {
+    background-image: url(../img/Background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    top: 0;
+}
+
+.bg-metal {
+    background-image: url(../img/METAL.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid white;
+}
+
+.navLogo {
+    height: 80px;
+    width: auto;
+}
+
+/* rules for nested dropdowns */
+
+.dropdown-content {
+    overflow: visible !important;
+}
+
+/* rule for ad banners */
+.adinfo{
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.section-space{
+    margin 
+}
