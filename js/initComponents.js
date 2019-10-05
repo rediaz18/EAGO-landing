@@ -21,10 +21,14 @@ $(document).ready(function () {
   /* Carousel Init */
   $('.carousel.carousel-slider').carousel({
     fullWidth: true,
-    duration: 300
+    duration: 300,
+    indicators: true
   });
 
-
-
+  autoplay()
+  function autoplay() {
+    $('.carousel.carousel-slider').carousel('next');
+    setTimeout(autoplay, 4500);
+  }
 
 });
