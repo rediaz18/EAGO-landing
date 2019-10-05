@@ -31,4 +31,7 @@ $(document).ready(function () {
     setTimeout(autoplay, 4500);
   }
 
+  $('.parallax').parallax();
+
 });
+
