@@ -54,31 +54,31 @@
 
     <ul id="dropdownMecanica" class="dropdown-content">
         <li><a href="#Servicios">Mantenimiento Preventivo</a></li>
-        <li><a href="#!">Mantenimiento Correctivo</a></li>
-        <li><a href="#!">Limpieza</a></li>
+        <li><a href="#Servicios">Mantenimiento Correctivo</a></li>
+        <li><a href="#Servicios">Limpieza</a></li>
     </ul>
 
     <ul id="dropdownEstetica" class="dropdown-content">
-        <li><a href="#!">Hojalateria y pintura</a></li>
-        <li><a href="#!">Pulido y encerado</a></li>
-        <li><a href="#!">Lavado de vestiduras</a></li>
-        <li><a href="#!">Lavado de motor</a></li>
+        <li><a href="#Servicios">Hojalateria y pintura</a></li>
+        <li><a href="#Servicios">Pulido y encerado</a></li>
+        <li><a href="#Servicios">Lavado de vestiduras</a></li>
+        <li><a href="#Servicios">Lavado de motor</a></li>
     </ul>
     <!-- SERVICIOS Dropdown Structure -->
 
     <!-- Sidenav -->
     <ul class="sidenav" id="mobile-demo">
         <li><a href="#">Inicio</a></li>
-        <li><a href="#">¿Quiénes Somos?</a></li>
+        <li><a href="#nosotros">¿Quiénes Somos?</a></li>
         <!-- Dropdown Trigger -->
         <li><a class="dropdown-trigger" href="#Servicios" data-target="dropdown1">Servicios-Boutique<i
                     class="material-icons right">arrow_drop_down</i></a></li>
 
-        <li><a href="#">Administración de flotilla</a></li>
-        <li><a href="#">Gestoria</a></li>
-        <li><a href="#">Subastas</a></li>
+        <li><a href="#admonFlotilla">Administración de flotilla</a></li>
+        <li><a href="#gestoria">Gestoria</a></li>
+        <li><a href="http://www.eago.com.mx" target="_blank">Subastas</a></li>
         <li><a href="#">Ayuda</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="#contacto">Contacto</a></li>
     </ul>
     <!-- Sidenav -->
 
@@ -92,16 +92,16 @@
 
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#">Inicio</a></li>
-                    <li><a href="#">¿Quiénes Somos?</a></li>
+                    <li><a href="#nosotros">¿Quiénes Somos?</a></li>
                     <!-- Dropdown Trigger -->
-                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Servicios-Boutique<i
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Servicios<i
                                 class="material-icons right">arrow_drop_down</i></a></li>
 
-                    <li><a href="#">Administración de flotilla</a></li>
-                    <li><a href="#">Gestoria</a></li>
-                    <li><a href="#">Subastas</a></li>
+                    <li><a href="#admonFlotilla">Administración de flotilla</a></li>
+                    <li><a href="#gestoria">Gestoria</a></li>
+                    <li><a href="http://www.eago.com.mx" target="_blank">Subastas</a></li>
                     <li><a href="#">Ayuda</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
 
                 </ul>
 
@@ -142,9 +142,9 @@
 
 
 
-    <div class="section bg-transparent mt-5">
+    <div class="section bg-transparent mt-5" id="Servicios">
 
-        <div class="round-corners" id="Servicios">
+        <div class="round-corners" >
             <h1 class="center-align">Tu auto quedará como nuevo</h1>
             <br>
             <div class="row container">
@@ -242,8 +242,8 @@
     <!--servicios-->
 
     <div class="section bg-transparent" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="250"
-        data-aos-offset="0">
-        <div class="container">
+        data-aos-offset="0" id="admonFlotilla">
+        <div class="container" >
             <h1>Estas en las mejores manos</h1>
             <h3>Administramos tu flotilla</h3>
 
@@ -305,8 +305,8 @@
 
 
     <div class="section bg-transparent py-5" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
-        data-aos-offset="0">
-        <div class="container">
+        data-aos-offset="0" id="gestoria">
+        <div class="container" >
             <h1><strong>Despreocupate de la gestión</strong></h1>
             <h3>Lo haceos por ti</h3>
 
@@ -406,7 +406,7 @@
     <!-- parallax -->
 
     <!-- nosotros -->
-    <div class="section bg-transparent">
+    <div class="section bg-transparent" id="nosotros">
         <div class="">
             <h1 class="center-align">Nosotros</h1>
             <div class="row">
@@ -426,7 +426,7 @@
     </div>
 
     <!-- contacto -->
-    <div class="bg-white-transparent">
+    <div class="bg-white-transparent" id="contacto">
         <div class="row py-5 container">
             <h1>Escribenos</h1>
 
