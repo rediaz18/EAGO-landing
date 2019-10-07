@@ -10,6 +10,12 @@ a:hover {
     color: whitesmoke;
 }
 
+@media screen and (max-width: 800px){
+    h1>strong{
+        font-size: 10vw;
+    }
+}
+
 .hero__div {
     /* position: absolute;
     bottom: 0;
