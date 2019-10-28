@@ -1,9 +1,10 @@
 body {
     font-family: 'Ubuntu', sans-serif;
 }
+
 html {
     scroll-behavior: smooth;
-  }
+}
 
 a {
     color: whitesmoke;
@@ -13,8 +14,8 @@ a:hover {
     color: whitesmoke;
 }
 
-@media screen and (max-width: 800px){
-    h1>strong{
+@media screen and (max-width: 800px) {
+    h1>strong {
         font-size: 10vw;
     }
 }
@@ -26,6 +27,11 @@ a:hover {
     width: 100%;
     height: auto;
     margin-bottom: -1px; */
+}
+
+.hero {
+    position: absolute;
+    font-size: 6em;
 }
 
 .bg-flame {
@@ -85,7 +91,7 @@ a:hover {
     color: black;
 }
 
-.bg-transparent{
+.bg-transparent {
     color: whitesmoke;
 }
 
@@ -141,6 +147,50 @@ a:hover {
 
 .invisible {
     display: none;
+}
+
+.slide {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text-slide {
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+}
+
+.full-height {
+    min-height: 90vh;
+    overflow: hidden;
+}
+
+#carwash{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    left: -30%;
+}
+
+#gas-cut{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    left: -30%;
+}
+
+#flotilla{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 #wrap {

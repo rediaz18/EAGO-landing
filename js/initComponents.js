@@ -22,13 +22,14 @@ $(document).ready(function () {
   $('.carousel.carousel-slider').carousel({
     fullWidth: true,
     duration: 300,
-    indicators: true
+    indicators: true,
+    fullWidth: true
   });
 
   autoplay()
   function autoplay() {
     $('.carousel.carousel-slider').carousel('next');
-    setTimeout(autoplay, 4500);
+    setTimeout(autoplay, 10000);
   }
 
   $('.parallax').parallax();

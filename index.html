@@ -94,9 +94,10 @@
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#nosotros">¿Quiénes Somos?</a></li>
                     <!-- Dropdown Trigger -->
-                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Servicios<i
-                                class="material-icons right">arrow_drop_down</i></a></li>
+                    <!--  <li><a class="dropdown-trigger" href="#Servicios" data-target="dropdown1">Servicios<i
+                                class="material-icons right">arrow_drop_down</i></a></li> -->
 
+                    <li><a href="#Servicios">Servicios</a></li>
                     <li><a href="#admonFlotilla">Administración de flotilla</a></li>
                     <li><a href="#gestoria">Gestoria</a></li>
                     <li><a href="http://www.eago.com.mx" target="_blank">Subastas</a></li>
@@ -112,25 +113,72 @@
 
 
 
-    <div class="row section">
-        <div class="col s2 center-align adinfo-Vertical hide-on-med-and-down">
+    <div class="row">
+        <!-- <div class="col s2 center-align adinfo-Vertical hide-on-med-and-down">
             <img src="img/adbanner-vertical.jpg" alt="">
-        </div>
-        <div class="col s12 m8 center-align">
+        </div> -->
+        <div class="col s12 m12 center-align">
             <div class="section">
                 <div class="carousel carousel-slider round-corners" data-indicators="true">
-                    <a class="carousel-item" href="#one!"><img src="img/PRESENTACIONAGO/Slide1.PNG"></a>
+
+                    <div class="carousel-item red white-text slide" href="#one!"
+                        style="background-image: url(img/PRESENTACIONAGO/Slide1.PNG);">
+                        <video autoplay="" muted="" loop="" preload="auto" id="flotilla">
+                            <source src="video/Cars_moving.mp4"
+                                type="video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+                        </video>
+                        <span class="text-slide hero">
+                            <h1>Administración de flotilla</h1>
+
+                        </span>
+                    </div>
+                    <div class="carousel-item red white-text slide" href="#one!"
+                        style="background-image: url(img/PRESENTACIONAGO/Slide5.PNG);">
+                        <video autoplay="" muted="" loop="" preload="auto" id="flotilla">
+                            <source src="video/Atoms.mp4" type="video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+                        </video>
+                        <span class="text-slide hero">
+                            <h1>Subastas Electronicas</h1>
+
+                        </span>
+                    </div>
+                    <div class="carousel-item red white-text slide" href="#one!"
+                        style="background-image: url(img/PRESENTACIONAGO/Slide2.PNG);">
+                        <video autoplay="" muted="" loop="" preload="auto" id="flotilla">
+                            <source src="video/gestoria.mp4" type="video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+                        </video>
+                        <span class="text-slide hero">
+                            <h1>Gestoría</h1>
+
+                        </span>
+                    </div>
+                    <div class="carousel-item red white-text slide" href="#one!"
+                        style="background-image: url(img/dp-paint.jpg);">
+                        <span class="text-slide hero">
+                            <h1>Mecánica y Estética</h1>
+
+                        </span>
+                    </div>
+
+                    <!--  <div class="carousel-item red white-text slide" href="#one!" style="background-image: url(img/PRESENTACIONAGO/Slide6.PNG);">
+                        <span class="text-slide hero">
+                            <h2>First Panel</h2>
+                            <p class="white-text">This is your first panel</p>
+                        </span>
+                    </div> -->
+
+                    <!--  <a class="carousel-item" href="#one!"><img src="img/PRESENTACIONAGO/Slide1.PNG"></a>
                     <a class="carousel-item" href="#two!"><img src="img/PRESENTACIONAGO/Slide2.PNG"></a>
                     <a class="carousel-item" href="#three!"><img src="img/PRESENTACIONAGO/Slide3.PNG"></a>
                     <a class="carousel-item" href="#four!"><img src="img/PRESENTACIONAGO/Slide4.PNG"></a>
                     <a class="carousel-item" href="#three!"><img src="img/PRESENTACIONAGO/Slide5.PNG"></a>
-                    <a class="carousel-item" href="#four!"><img src="img/PRESENTACIONAGO/Slide6.PNG"></a>
+                    <a class="carousel-item" href="#four!"><img src="img/PRESENTACIONAGO/Slide6.PNG"></a> -->
                 </div>
             </div>
         </div>
-        <div class="col s2 center-align adinfo-Vertical hide-on-med-and-down">
+        <!--   <div class="col s2 center-align adinfo-Vertical hide-on-med-and-down">
             <img src="img/adbanner-vertical.jpg" alt="">
-        </div>
+        </div> -->
     </div>
 
 
@@ -141,14 +189,21 @@
     <!-- ads -->
 
 
+    <div class="section row bg-transparent mt-5 full-height" id="Servicios">
+        <div class="col s12 m6" style="z-index: 10; min-height:100vh; overflow: hidden;" data-aos="fade-up">
+            <video autoplay="" muted="" loop="" preload="auto" id="carwash" class="">
+                <source src="video/limpiando.mp4" type="video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+            </video>
+        </div>
+        <div class="col s12 m6" style="overflow: hidden;">
 
-    <div class="section bg-transparent mt-5" id="Servicios">
+            <div class="row">
+                <div class="col s12 center">
+                    <!-- <h1 class="center-align">Tu auto quedará como nuevo</h1> -->
+                    <h1>Estética</h1>
+                </div>
 
-        <div class="round-corners" >
-            <h1 class="center-align">Tu auto quedará como nuevo</h1>
-            <br>
-            <div class="row container">
-                <div class="col s12 m4  card-box z-depth-4" data-aos="fade-up">
+                <!--  <div class="col s12 m6  card-box z-depth-4" data-aos="fade-up">
                     <div class="center-align">
                         <img class="card-logo" src="img/dp-2.jpg" alt="">
                     </div>
@@ -156,11 +211,10 @@
                         <h4 class="truncate card-header">
                             Hojalateria
                         </h4>
-                        <!-- <hr> -->
                         <p></p>
                     </div>
-                </div>
-                <div class="col s12 m4  card-box z-depth-4" data-aos="fade-up">
+                </div> -->
+                <div class="col s12 m6  card-box z-depth-4" data-aos="fade-up">
                     <div class="center-align">
                         <img src="img/blanco-alaska-1.png" alt="" class="card-logo">
                     </div>
@@ -172,7 +226,7 @@
                         <p></p>
                     </div>
                 </div>
-                <div class="col s12 m4  card-box z-depth-4" data-aos="fade-up">
+                <div class="col s12 m6  card-box z-depth-4" data-aos="fade-up">
                     <div class="center-align">
                         <img src="img/blanco-alaska-1.png" alt="" class="card-logo">
                     </div>
@@ -184,7 +238,7 @@
                         <p></p>
                     </div>
                 </div>
-                <div class="col s12 m4  card-box z-depth-4" data-aos="fade-up">
+                <!-- <div class="col s12 m6  card-box z-depth-4" data-aos="fade-up">
                     <div class="center-align">
                         <img src="img/blanco-alaska-1.png" alt="" class="card-logo">
                     </div>
@@ -192,11 +246,10 @@
                         <h4 class="truncate card-header">
                             Control de <br> emisiones
                         </h4>
-                        <!-- <hr> -->
                         <p></p>
                     </div>
-                </div>
-                <div class="col s12 m4  card-box z-depth-4" data-aos="fade-up">
+                </div> -->
+                <!-- <div class="col s12 m6  card-box z-depth-4" data-aos="fade-up">
                     <div class="center-align">
                         <img src="img/blanco-alaska-1.png" alt="" class="card-logo">
                     </div>
@@ -204,11 +257,10 @@
                         <h4 class="truncate card-header">
                             Pulido y <br> encerado
                         </h4>
-                        <!-- <hr> -->
                         <p></p>
                     </div>
-                </div>
-                <div class="col s12 m4 card-box z-depth-4" data-aos="fade-up">
+                </div>-->
+                <div class="col s12 m12 card-box z-depth-4" data-aos="fade-up">
                     <div class="center-align">
                         <img src="img/blanco-alaska-1.png" alt="" class="card-logo">
                     </div>
@@ -216,13 +268,103 @@
                         <h4 class="truncate card-header">
                             Lavado de <br> vestiduras
                         </h4>
+                        <p></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class=" row bg-transparent mt-2 full-height">
+
+        <div class="col s12 m6" style="overflow: hidden;">
+
+            <div class="row">
+                <div class="col s12 center">
+                    <!-- <h1 class="center-align">Tu auto quedará como nuevo</h1> -->
+                    <h1>Mecánica</h1>
+                </div>
+
+                <div class="col s12 m6  card-box z-depth-4" data-aos="fade-up">
+                    <div class="center-align">
+                        <img class="card-logo" src="img/dp-2.jpg" alt="">
+                    </div>
+                    <div class="bg-transparent round-corners-bottom center-align py-3 px-2">
+                        <h4 class="truncate card-header">
+                            Hojalateria
+                        </h4>
                         <!-- <hr> -->
                         <p></p>
                     </div>
                 </div>
+                <!-- <div class="col s12 m6  card-box z-depth-4" data-aos="fade-up">
+                    <div class="center-align">
+                        <img src="img/blanco-alaska-1.png" alt="" class="card-logo">
+                    </div>
+                    <div class="bg-transparent round-corners-bottom center-align py-3 px-2">
+                        <h4 class="truncate card-header">
+                            Pintura
+                        </h4>
+                        
+                        <p></p>
+                    </div>
+                </div> -->
+                <!--  <div class="col s12 m6  card-box z-depth-4" data-aos="fade-up">
+                    <div class="center-align">
+                        <img src="img/blanco-alaska-1.png" alt="" class="card-logo">
+                    </div>
+                    <div class="bg-transparent round-corners-bottom center-align py-3 px-2">
+                        <h4 class="truncate card-header">
+                            Lavado de <br> motor
+                        </h4>
+                        <p></p>
+                    </div>
+                </div> -->
+                <div class="col s12 m6  card-box z-depth-4" data-aos="fade-up">
+                    <div class="center-align">
+                        <img src="img/blanco-alaska-1.png" alt="" class="card-logo">
+                    </div>
+                    <div class="bg-transparent round-corners-bottom center-align py-3 px-2">
+                        <h4 class="truncate card-header">
+                            Control de <br> emisiones
+                        </h4>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="col s12 m12  card-box z-depth-4" data-aos="fade-up">
+                    <div class="center-align">
+                        <img src="img/blanco-alaska-1.png" alt="" class="card-logo">
+                    </div>
+                    <div class="bg-transparent round-corners-bottom center-align py-3 px-2">
+                        <h4 class="truncate card-header">
+                            Pulido y <br> encerado
+                        </h4>
+                        <p></p>
+                    </div>
+                </div>
+                <!-- <div class="col s12 m6 card-box z-depth-4" data-aos="fade-up">
+                        <div class="center-align">
+                            <img src="img/blanco-alaska-1.png" alt="" class="card-logo">
+                        </div>
+                        <div class="bg-transparent round-corners-bottom center-align py-3 px-2">
+                            <h4 class="truncate card-header">
+                                Lavado de <br> vestiduras
+                            </h4>
+                            <p></p>
+                        </div>
+                    </div> -->
+
             </div>
         </div>
+
+        <div class="col s12 m6" style="z-index: 10; min-height:100vh; overflow: hidden;" data-aos="fade-up">
+            <video autoplay="" muted="" loop="" preload="auto" id="gas-cut">
+                <source src="video/gas_cut03.mp4" type="video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+            </video>
+        </div>
     </div>
+
 
     <!-- parallax -->
     <div class="parallax-container">
@@ -243,14 +385,14 @@
 
     <div class="section bg-transparent" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="250"
         data-aos-offset="0" id="admonFlotilla">
-        <div class="container" >
+        <div class="container">
             <h1>Estas en las mejores manos</h1>
             <h3>Administramos tu flotilla</h3>
 
             <div class="row center-block">
                 <div class="col s12 m5 mx-4 my-4 z-depth-4">
                     <div class="center-align">
-                        <img src="img/blanco-alaska-1.png" alt="" class="card-logo">
+                        <img src="img/mecanico.png" alt="" class="card-logo">
                     </div>
                     <div class="bg-transparent round-corners-bottom center-align py-3 px-2">
                         <h4 class="truncate card-header">
@@ -262,7 +404,7 @@
                 </div>
                 <div class="col s12 m5 mx-4 my-4 z-depth-4 ">
                     <div class="center-align">
-                        <img src="img/blanco-alaska-1.png" alt="" class="card-logo">
+                        <img src="img/seguro.png" alt="" class="card-logo">
                     </div>
                     <div class="bg-transparent round-corners-bottom center-align py-3 px-2">
                         <h4 class="truncate card-header">
@@ -306,7 +448,7 @@
 
     <div class="section bg-transparent py-5" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
         data-aos-offset="0" id="gestoria">
-        <div class="container" >
+        <div class="container">
             <h1><strong>Despreocupate de la gestión</strong></h1>
             <h3>Lo haceos por ti</h3>
 
@@ -332,8 +474,10 @@
                             Renovación <br>
                         </h4>
                         <hr>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas eveniet cumque perferendis
-                            dolore saepe odit blanditiis ducimus odio nobis ea fuga, eius ullam sit reprehenderit. Sed
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas eveniet cumque
+                            perferendis
+                            dolore saepe odit blanditiis ducimus odio nobis ea fuga, eius ullam sit reprehenderit.
+                            Sed
                             totam assumenda porro id!</p>
                     </div>
                 </div>
@@ -346,8 +490,10 @@
                             Placas
                         </h4>
                         <hr>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas eveniet cumque perferendis
-                            dolore saepe odit blanditiis ducimus odio nobis ea fuga, eius ullam sit reprehenderit. Sed
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas eveniet cumque
+                            perferendis
+                            dolore saepe odit blanditiis ducimus odio nobis ea fuga, eius ullam sit reprehenderit.
+                            Sed
                             totam assumenda porro id!</p>
                     </div>
                 </div>
@@ -360,8 +506,10 @@
                             Verificaciones
                         </h4>
                         <hr>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas eveniet cumque perferendis
-                            dolore saepe odit blanditiis ducimus odio nobis ea fuga, eius ullam sit reprehenderit. Sed
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas eveniet cumque
+                            perferendis
+                            dolore saepe odit blanditiis ducimus odio nobis ea fuga, eius ullam sit reprehenderit.
+                            Sed
                             totam assumenda porro id!</p>
                     </div>
                 </div>
@@ -374,8 +522,10 @@
                             Multas
                         </h4>
                         <hr>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas eveniet cumque perferendis
-                            dolore saepe odit blanditiis ducimus odio nobis ea fuga, eius ullam sit reprehenderit. Sed
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas eveniet cumque
+                            perferendis
+                            dolore saepe odit blanditiis ducimus odio nobis ea fuga, eius ullam sit reprehenderit.
+                            Sed
                             totam assumenda porro id!</p>
                     </div>
                 </div>
@@ -388,8 +538,10 @@
                             Certificaciones
                         </h4>
                         <hr>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas eveniet cumque perferendis
-                            dolore saepe odit blanditiis ducimus odio nobis ea fuga, eius ullam sit reprehenderit. Sed
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas eveniet cumque
+                            perferendis
+                            dolore saepe odit blanditiis ducimus odio nobis ea fuga, eius ullam sit reprehenderit.
+                            Sed
                             totam assumenda porro id!</p>
                     </div>
                 </div>
@@ -416,7 +568,8 @@
                 <div class="col s12 m5 bg-transparent round-corners z-depth-2 p-3 mr-2">
                     <p class="h3">Somos un grupo de profesionistas con más de 20 años de experiencia en el ramo
                         automotriz.
-                        Enfocando esfuerzos en la administración de flotillas, gestoría, mecánica, estetica automotriz y
+                        Enfocando esfuerzos en la administración de flotillas, gestoría, mecánica, estetica
+                        automotriz y
                         <b>subastas electrónicas</b>
                     </p>
                 </div>
@@ -473,7 +626,8 @@
             <div class="col s12 m4">
                 <img src="img/LOGO-AGO-BLANCO-6.png" alt="" class="responsive-img" />
                 <p>Av. Miguel Hidalgo 37, Col. Olivar del Conde, Del. Alvaro Obregón, CDMX. CP.01400</p>
-                <p><a href="tel:+5215530435216"><i class="small material-icons">local_phone</i> +52 1 55 30 43 5216</a>
+                <p><a href="tel:+5215530435216"><i class="small material-icons">local_phone</i> +52 1 55 30 43
+                        5216</a>
                 </p>
                 <p><a href="mailto:informesago@eago.com.mx"><i class="small material-icons">mail_outline</i>
                         informesago@eago.com.mx</a></p>
